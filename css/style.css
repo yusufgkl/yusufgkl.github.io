@@ -1,0 +1,59 @@
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url("../images/bg.jpeg");
+  }
+
+  p {
+    color: #ffffff;
+  }
+
+  #mail{
+    color: #2c3e50;
+  }
+  .wrapper {
+    position: absolute;
+    top: 50%;
+    margin-top: -260px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .container {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    width: 300px;
+  }
+  h1 {
+    color: #2c3e50;
+    margin-bottom: 100px;
+  }
+
+  h1 span {
+    color: #ffffff;
+  }
+
+  .button {
+    width: 300px;
+    margin: 0px auto 60px auto;
+    padding: 10px;
+    border-radius: 10px;
+  border: 1px solid #ffffff;
+  }
+
+.footer {
+position: absolute;
+right: 0;
+color: #ffffff;
+bottom: 0;
+left: 0;
+padding: 1rem;
+     text-align: center;
+}
+
+canvas{
+  display:block;
+  vertical-align:bottom;
+}
