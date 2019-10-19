@@ -35,6 +35,10 @@ p {
     font-size: 1.5rem;
 }
 
+.mobile-menu > * { 
+    display: none;
+}
+
 .menu {
     display: block;
     margin-block-start: 1.67em;
@@ -93,7 +97,7 @@ img:hover {
     margin-top: 5rem;
 }
 
-.clients-section > p {
+.clients-section>p {
     margin-bottom: 3rem;
 }
 
@@ -108,13 +112,16 @@ img:hover {
     border: solid 2px #1A1D20;
     color: black;
     padding: 10px;
+    padding-left: 0px;
     flex-shrink: 0;
     text-align: right;
     font-size: 1.2rem;
     margin-top: 4rem;
 }
 
-.heart{color:#e25555;}
+.heart {
+    color: #e25555;
+}
 
 @media (max-width: 600px) {
     body {
@@ -137,5 +144,28 @@ img:hover {
         text-align: left;
         float: none;
         margin-left: 20px;
+    }
+
+    .mobile-menu {
+        margin-top: 50px;
+        display: flex;
+    }
+
+    .mobile-menu > * { 
+        display: block;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .mcol {
+        flex: 1;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .mcol > a {
+        font-size: 1.5rem;
     }
 }
