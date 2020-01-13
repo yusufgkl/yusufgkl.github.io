@@ -20,6 +20,10 @@ body {
 
 .logo {
     width: 7rem;
+
+    background-color: black;
+    width: 18rem;
+    height: 5rem;
 }
 
 .header {
@@ -35,7 +39,7 @@ p {
     font-size: 1.5rem;
 }
 
-.mobile-menu > * { 
+.mobile-menu>* {
     display: none;
 }
 
@@ -75,8 +79,12 @@ ul {
     /* border: solid 1px red; */
 }
 
+.cv-link {
+    color: #3498db;
+}
 
-.col>img {
+
+.col>.work-img {
     display: block;
     max-width: 100%;
     max-height: 100%;
@@ -85,7 +93,7 @@ ul {
     transition: opacity 1000ms cubic-bezier(.33, 0, .2, 1);
 }
 
-img:hover {
+.work-img:hover {
     opacity: 0.15;
 }
 
@@ -93,7 +101,8 @@ img:hover {
     font-size: 1.8rem;
 }
 
-.clients-section, .comp-section{
+.clients-section,
+.comp-section {
     margin-top: 5rem;
     border-top: solid black 2px;
 }
@@ -114,14 +123,15 @@ img:hover {
 }
 
 .img-wrap .img-description {
-    transition: visibility 1000ms cubic-bezier(.33, 0, .2, 1), opacity 1000ms cubic-bezier(.33, 0, .2, 1);;
+    transition: visibility 1000ms cubic-bezier(.33, 0, .2, 1), opacity 1000ms cubic-bezier(.33, 0, .2, 1);
+    ;
     visibility: hidden;
     opacity: 0;
     position: absolute;
     top: 0;
     width: 100%;
     height: 100%;
-    text-align: center; 
+    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -141,6 +151,10 @@ img:hover {
     opacity: 0.15;
 }
 
+.lower-line {
+    border-bottom: solid black 2px;
+    margin-bottom: 2rem;
+}
 
 .footer {
     border: solid 2px #1A1D20;
@@ -155,6 +169,31 @@ img:hover {
 
 .heart {
     color: #e25555;
+}
+
+.profile-descr {
+    text-align: left;
+    padding-left: 1rem;
+}
+
+.profile-skill {
+    font-size: 1.5rem;
+    text-align: left;
+    margin-bottom: 10%;
+    border: solid black 2px;
+    padding: 10px;
+    margin-top: 0px;
+}
+.profile-skill > li {
+    margin-bottom: 3%;
+}
+
+.about {
+    margin-bottom: 10%;
+}
+
+.nodispo {
+    text-decoration: line-through;
 }
 
 @media (max-width: 600px) {
@@ -185,7 +224,7 @@ img:hover {
         display: flex;
     }
 
-    .mobile-menu > * { 
+    .mobile-menu>* {
         display: block;
     }
 
@@ -199,7 +238,7 @@ img:hover {
         justify-content: center;
     }
 
-    .mcol > a {
+    .mcol>a {
         font-size: 1.5rem;
     }
 }
