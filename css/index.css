@@ -14,6 +14,7 @@ body {
     padding: 70px;
 }
 
+
 .content {
     flex: 1 0 auto;
 }
@@ -107,11 +108,13 @@ ul {
     border-top: solid black 2px;
 }
 
-.clients-section>p {
+.clients-section>p,
+.comp-section>p{
     margin-bottom: 3rem;
 }
 
-.clients-section>ul>li {
+.clients-section>ul>li,
+.comp-section>ul>li {
     text-align: center;
     float: left;
     margin-right: 2rem;
@@ -213,7 +216,8 @@ ul {
         width: 100%;
     }
 
-    .clients-section>ul>li {
+    .clients-section>ul>li,
+    .comp-section>ul>li {
         text-align: left;
         float: none;
         margin-left: 20px;
