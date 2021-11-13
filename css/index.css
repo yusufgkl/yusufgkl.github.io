@@ -199,6 +199,10 @@ ul {
     text-decoration: line-through;
 }
 
+.pave {
+    white-space: pre-line;
+}
+
 @media (max-width: 600px) {
     body {
         padding: 0px;
